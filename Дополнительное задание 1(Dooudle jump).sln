@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Дополнительное задание 1(Dooudle jump)", "Дополнительное задание 1(Dooudle jump)\Дополнительное задание 1(Dooudle jump).csproj", "{3C29EDD7-A112-4952-AAC0-599F48FC9531}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C29EDD7-A112-4952-AAC0-599F48FC9531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C29EDD7-A112-4952-AAC0-599F48FC9531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C29EDD7-A112-4952-AAC0-599F48FC9531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C29EDD7-A112-4952-AAC0-599F48FC9531}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CCC5182-1AEC-44A9-8435-498F16E4F6D6}
+	EndGlobalSection
+EndGlobal

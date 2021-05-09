@@ -1,6 +1,6 @@
 ﻿namespace Дополнительное_задание_1_Dooudle_jump_
 {
-    partial class Form1
+    partial class DoudleJump
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // DoudleJump
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "DoudleJump";
+            this.Text = "Doodle Jump";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

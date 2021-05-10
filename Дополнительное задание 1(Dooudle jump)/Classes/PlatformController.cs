@@ -32,5 +32,26 @@ namespace Дополнительное_задание_1_Dooudle_jump_.Classes
                 platforms.Add(platform);
             }
         }
+
+        public static void GenerateRandomPlatform() //добавление платформ на форму
+        {
+            CLearPLatforms();
+            Random r = new Random();
+            int x = r.Next(0, 270);
+            PointF posistion = new PointF(x, startPlatformPosY);
+            Platform platform = new Platform(posistion);
+            platforms.Add(platform);
+        }
+
+        public static void CLearPLatforms() // удаление платформ, если они находятся далеко от игрока
+        {
+            for(int i =0; i < platforms.Count; i++)
+            {
+                if(platforms[i].transform.position.Y >= 700)
+                {
+                    platforms.RemoveAt(i);
+                }
+            }
+        }    
     }
 }

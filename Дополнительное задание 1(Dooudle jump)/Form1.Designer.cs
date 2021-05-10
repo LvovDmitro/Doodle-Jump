@@ -34,7 +34,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(308, 434);
+            this.DoubleBuffered = true;
             this.Name = "DoudleJump";
             this.Text = "Doodle Jump";
             this.Load += new System.EventHandler(this.Form1_Load);
